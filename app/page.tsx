@@ -195,7 +195,11 @@ export default function LandingPage() {
         <div className="container px-4">
           <h2 className="text-3xl font-bold text-center mb-12">기대 효과</h2>
           <div className="flex justify-center mb-10">
-            
+            {/* <img
+              src="/placeholder.svg?height=300&width=600"
+              alt="상담사와 내담자"
+              className="rounded-lg shadow-lg max-w-full h-auto"
+            /> */}
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             <div className="p-6 rounded-lg border bg-card text-card-foreground shadow-sm">
@@ -337,11 +341,11 @@ export default function LandingPage() {
         <div className="container px-4 text-center">
           <h2 className="text-3xl font-bold mb-8">비전</h2>
           <div className="flex justify-center mb-8">
-            {/* <img
+            <img
               src="/placeholder.svg?height=250&width=400"
               alt="마음의 연결 비전"
               className="rounded-lg shadow-lg max-w-full h-auto"
-            /> */}
+            />
           </div>
           <p className="text-2xl font-medium italic mb-6 max-w-3xl mx-auto">
             "당신의 마음이 말을 건네기 전, 우리는 이미 듣고 있습니다."
